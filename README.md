@@ -1,5 +1,5 @@
 <!-- 
-//  Copyright (c) 2025-2026 Psummerland2 LLC.
+//  Copyright (c) 2025-2026 Peter Buenafuente Summerland.
 //  All rights reserved.
 //
 //  This Source Code Form is subject to the terms of the Mozilla Public
@@ -9,10 +9,10 @@
 
 ## CmdArgLibCommandNodeStruct
 
-CmdArgLibCommandNodeStruct is part of the [Command Argument Library](https://github.com/psummerland2/cmd-arg-lib.git).
+CmdArgLibCommandNodeStruct is part of the [Command Argument Library](https://github.com/ouser4629/cmd-arg-lib.git).
 
 It provides the `CommandNodeStruct` protocol, which
-defines a [`CommandNode`](https://github.com/psummerland2/cmd-arg-lib/blob/main/REFERENCE.md#commandnode) 
+defines a [`CommandNode`](https://github.com/ouser4629/cmd-arg-lib/blob/main/REFERENCE.md#commandnode) 
 from the stored properties and configuration of a conforming struct.
 
 ---
@@ -110,7 +110,7 @@ The `init()` requirement forces all of the stored properties to have default val
 The configuration property provides additional information needed to define the CLI. (It is not itself included in the CLI.)
 
 A valid stored property is mutable and has a type allowed for a parameter of
- a [command function](https://github.com/psummerland2/cmd-arg-lib/blob/main/REFERENCE.md#command-function).
+ a [command function](https://github.com/ouser4629/cmd-arg-lib/blob/main/REFERENCE.md#command-function).
  
 If a stored property's default value is `nil`, its corresponding argument in the CLI is required.
 
@@ -130,7 +130,7 @@ An instance of`CommandNodeConfiguration<StateElement> ` has the following stored
 
 ## Examples
 
-[Command Argument Library](https://github.com/psummerland2/cmd-arg-lib.git) has extensive examples
+[Command Argument Library](https://github.com/ouser4629/cmd-arg-lib.git) has extensive examples
 that show how to use `CmdArgLibCommandNodeStruct`.
 
 ---
